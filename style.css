@@ -2,14 +2,23 @@
 
 body {
   margin: 0;
-  background-color: #eee;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar {
     padding: 15px 10px 15px 10px;
     display: flex;
     align-items: center;
+    background-color: #ABCDEF;
+    top: 0;
+  left: 0;
+  right: inherit;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
+
 
 #logo {
     margin-right: auto;
@@ -27,32 +36,62 @@ ul {
 }
 
 ul a {
-    color: black;
+    color: #fff;
     font-family: 'Oxygen', sans-serif;
     font-size: 20px;
     text-decoration: none;
 }
 
+footer {
+    color: #abcdef;
+    padding: 2px;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    background-color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: darkgray;
+}
+
 .jumbotron {
-  padding: 30px; /* fills out the jumbotron */
-  background-color: #111;
+  padding: 200px 180px 150px 180px; /* fills out the jumbotron */
+  background-image: url(/Drones/dion-tavenier-191871-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-color: transparent;
 }
 
 .container {
-  width: 1170px; /* specify a width */
-  margin: 0 auto;  /* centers the container */
-  padding: 0 15px; /* adds some padding to the left and right*/
+    color: #fff;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    margin: auto;
+}
+
+h6 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin: auto;
+}
+
+p {
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .jumbotron .container {
   max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
-  background-color: #222;
-}
-
-.jumbotron h1 {
-  text-align: center; /* centers the heading */
-  color: #DDD;
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
 }
