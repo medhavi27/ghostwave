@@ -1,6 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Oxygen:400,700');
+
 body {
   margin: 0;
   background-color: #eee;
+}
+
+.navbar {
+    padding: 15px 10px 15px 10px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+li {
+    display: inline;
+    padding-right: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .jumbotron {
