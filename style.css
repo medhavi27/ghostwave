@@ -57,7 +57,7 @@ footer a {
 
 .jumbotron {
   padding: 200px 180px 150px 180px; /* fills out the jumbotron */
-  background-image: url(/Drones/dion-tavenier-191871-unsplash.jpg);
+  background-image: url('Drones/dion-tavenier-191871-unsplash.jpg');
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
