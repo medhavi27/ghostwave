@@ -57,7 +57,7 @@ footer a {
 
 .jumbotron {
   padding: 200px 180px 150px 180px; /* fills out the jumbotron */
-  background-image: url('Drones/kevin-chow-176761-unsplash.jpg');
+  background-image: url('Drones/pexels-photo-1087182.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -78,6 +78,7 @@ h1 {
     font-weight: 700;
     font-size: 80px;
     margin: auto;
+    text-shadow: 2px 2px #000;
 }
 
 h6 {
@@ -85,11 +86,13 @@ h6 {
     font-weight: 700;
     font-size: 45px;
     margin: auto;
+    text-shadow: 2px 2px #000;
 }
 
 p {
     font-size: 28px;
     font-weight: 400;
+    text-shadow: 2px 2px #000;
 }
 
 .jumbotron .container {
