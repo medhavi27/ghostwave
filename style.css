@@ -98,3 +98,38 @@ p {
 .jumbotron .container {
   max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
 }
+.jumbotron-about {
+  padding: 200px 180px 550px 180px;
+  background-color: #31485fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+}
+.container-about {
+    color: #fff;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+
+    }
+.jumbotron-about .container-about {
+  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
+}
+.grow {
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  height: 200px;
+  width: 22%;
+  margin: 5px 1% 5px 1%;
+  float: left;
+  position: relative;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+.grow:hover {
+  height: 700px;
+}
