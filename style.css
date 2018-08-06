@@ -117,8 +117,30 @@ p {
     font-weight: 700;
 
     }
+  .text {
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    font-size: 1.5vw;
+
+  }
 
 .grow {
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  height: 193px;
+  margin: 5px 1% 5px 1%;
+  float: left;
+  position: relative;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+.grow:hover {
+  height: 900px;
+}
+
+.grow-2 {
   padding: 5px 5px 5px 5px;
   border-radius: 10px;
   height: 200px;
@@ -130,7 +152,7 @@ p {
   text-align: center;
   overflow: hidden;
 }
-.grow:hover {
+.grow-2:hover {
   height: 900px;
 }
 
