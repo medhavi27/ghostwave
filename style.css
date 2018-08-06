@@ -103,9 +103,11 @@ p {
   max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
 }
 
+/* styling for about {*/
+
 .jumbotron-about {
   padding: 25vh 10vw 25vh 10vw;
-  background-color: #2c4760 !important;;
+  background-color: #2c4760 !important;
 }
 .container-about {
     color: #fff;
@@ -129,7 +131,7 @@ p {
   overflow: hidden;
 }
 .grow:hover {
-  height: 700px;
+  height: 900px;
 }
 
 .column {
