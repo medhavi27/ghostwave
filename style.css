@@ -57,7 +57,10 @@ footer a {
 
 .jumbotron {
   padding: 200px 180px 150px 180px; /* fills out the jumbotron */
-  background-image: url('Drones/pexels-photo-1087182.jpeg');
+}
+
+#jumbotron-home {
+    background-image: url('Drones/pexels-photo-1087182.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -68,7 +71,7 @@ footer a {
 h1 {
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
-    font-size: 80px !important;
+    font-size: 9vw !important;
     margin: auto;
     text-shadow: 2px 2px #000;
     line-height: 100%;
@@ -77,7 +80,7 @@ h1 {
 h2 {
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
-    font-size: 35px !important;
+    font-size: 4vw !important;
     margin: auto;
     text-shadow: 2px 2px #000;
 }
@@ -99,13 +102,10 @@ p {
 .jumbotron .container {
   max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
 }
+
 .jumbotron-about {
-  padding: 200px 180px 550px 180px;
-  background-color: #31485fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  background-size: cover;
+  padding: 25vh 10vw 25vh 10vw;
+  background-color: #2c4760 !important;;
 }
 .container-about {
     color: #fff;
@@ -115,9 +115,7 @@ p {
     font-weight: 700;
 
     }
-.jumbotron-about .container-about {
-  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
-}
+
 .grow {
   padding: 5px 5px 5px 5px;
   border-radius: 10px;
@@ -135,7 +133,7 @@ p {
 }
 
 .column {
-    width: 30%;
+    width: 300px;
     margin: auto;
 }
 
