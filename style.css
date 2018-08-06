@@ -164,5 +164,13 @@ p {
 .row {
     margin: auto;
 }
+.h2 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 3vw;
+  text-shadow: 0px 0px #000;
+
+
+
+}
 
 /* styling for ADAS page */
