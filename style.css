@@ -168,9 +168,31 @@ p {
   font-family: 'Oxygen', sans-serif;
   font-size: 3vw;
   text-shadow: 0px 0px #000;
+}
 
+.in-the-news {
+    font-size: 4.5vw;
+}
 
+.about-news {
+    background-color: #acceee;
+    border-width: medium;
+    border-style: solid;
+    border-color: #2c4760;
+    margin: auto;
+    width: 160px;
+    text-align: center;
+    margin-bottom: 1em;
+}
 
+.about-news:hover {
+    background-color: #DDEBF8 !important;
+}
+
+#news-section {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* styling for ADAS page */
