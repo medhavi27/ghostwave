@@ -201,3 +201,16 @@ p {
   padding: 25vh 10vw 15vh 10vw;
   background-color: #2c4760 !important;
 }
+.flex-container {
+  display:flex;
+}
+#imagec:hover {
+  width:229px;
+
+}
+.column-contact {
+  height:215px;
+}
+.column-conact:hover{
+  height:300px;
+}
