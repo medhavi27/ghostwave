@@ -196,3 +196,8 @@ p {
 }
 
 /* styling for ADAS page */
+/* styling for contact page */
+.jumbotron-contact {
+  padding: 25vh 10vw 15vh 10vw;
+  background-color: #2c4760 !important;
+}
